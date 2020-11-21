@@ -1,0 +1,38 @@
+﻿[调试] 2020-11-21 19:24:27.910 thread:[01] ModBusTcpClient : 启动引擎
+[错误] 2020-11-21 19:28:53.159 thread:[01] ModBusTcpClient : 连接失败
+原因：嘗試操作的對象不是通訊端。 192.168.1.195:1502
+[调试] 2020-11-21 19:29:01.818 thread:[01] ModBusTcpClient : 启动引擎
+[错误] 2020-11-21 19:35:09.018 thread:[01] ModBusTcpClient : 连接失败
+原因：嘗試操作的對象不是通訊端。 192.168.1.195:1502
+[错误] 2020-11-21 19:35:37.686 thread:[01] ModBusTcpClient : 连接失败
+原因：嘗試操作的對象不是通訊端。 192.168.1.195:1502
+[错误] 2020-11-21 19:36:10.852 thread:[01] ModBusTcpClient : 连接失败
+原因：嘗試操作的對象不是通訊端。 192.168.1.195:1502
+[错误] 2020-11-21 19:36:34.200 thread:[01] ModBusTcpClient : 连接失败
+原因：嘗試操作的對象不是通訊端。 192.168.1.195:1502
+[错误] 2020-11-21 19:36:42.078 thread:[01] ModBusTcpClient : 连接失败
+原因：嘗試操作的對象不是通訊端。 192.168.1.195:1502
+[调试] 2020-11-21 19:37:04.228 thread:[01] ModBusTcpClient : 启动引擎
+[调试] 2020-11-21 19:37:33.692 thread:[01] ModBusTcpClient : 启动引擎
+[致命] 2020-11-21 19:37:40.410 thread:[01] ModBusTcpClient : 错误消息：連線已被您主機上的軟體中止。
+源：System
+堆栈：   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 HslCommunication.Core.NetSupport.ReadBytesFromSocket(Socket socket, Int32 receive, Action`2 report, Boolean reportByPercent, Boolean response)
+   於 HslCommunication.Core.NetSupport.ReadBytesFromSocket(Socket socket, Int32 receive)
+   於 HslCommunication.ModBus.ModBusTcpClient.ReceiveResponse(Socket socket, Byte[]& response, OperateResult result)
+错误类型：System.Net.Sockets.SocketException
+调用方法：Int32 Receive(Byte[], Int32, Int32, System.Net.Sockets.SocketFlags)
+/=================================================[    Exception    ]================================================/
+[调试] 2020-11-21 19:37:43.350 thread:[01] ModBusTcpClient : 启动引擎
+[致命] 2020-11-21 19:37:48.388 thread:[01] ModBusTcpClient : 错误消息：連線已被您主機上的軟體中止。
+源：System
+堆栈：   於 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 HslCommunication.Core.NetSupport.ReadBytesFromSocket(Socket socket, Int32 receive, Action`2 report, Boolean reportByPercent, Boolean response)
+   於 HslCommunication.Core.NetSupport.ReadBytesFromSocket(Socket socket, Int32 receive)
+   於 HslCommunication.ModBus.ModBusTcpClient.ReceiveResponse(Socket socket, Byte[]& response, OperateResult result)
+错误类型：System.Net.Sockets.SocketException
+调用方法：Int32 Receive(Byte[], Int32, Int32, System.Net.Sockets.SocketFlags)
+/=================================================[    Exception    ]================================================/
+[调试] 2020-11-21 19:45:08.610 thread:[01] ModBusTcpClient : 启动引擎
+[调试] 2020-11-21 19:47:54.140 thread:[01] ModBusTcpClient : 启动引擎
+[调试] 2020-11-21 19:49:36.760 thread:[01] ModBusTcpClient : 启动引擎
